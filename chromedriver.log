@@ -1,0 +1,165 @@
+[1703402717.796][INFO]: Starting ChromeDriver 120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483}) on port 40170
+[1703402717.796][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1703402719.291][INFO]: [33573caa1c921f691fd598b5942ea4c5] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications" ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1703402719.297][INFO]: Browser search. Trying... C:\Users\shree\.cache\selenium\chromedriver\win64\120.0.6099.109\chrome.exe
+[1703402719.297][INFO]: Browser search. Trying... C:\Users\shree\.cache\selenium\chromedriver\win64\120.0.6099.109\chrome.exe
+[1703402719.297][INFO]: Browser search. Trying... C:\Users\shree\.cache\selenium\chromedriver\win64\120.0.6099.109\chromium.exe
+[1703402719.303][INFO]: Browser search. Trying... C:\Users\shree\AppData\Local\Google\Chrome\Application\chrome.exe
+[1703402719.304][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703402719.304][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1703402719.306][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1703402719.308][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1703402719.310][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1703402719.310][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1703402719.312][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\shree\AppData\Local\Temp\scoped_dir13700_195584222" data:,
+[1703402721.376][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1703402722.028][INFO]: [33573caa1c921f691fd598b5942ea4c5] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "120.0.6099.111",
+      "chrome": {
+         "chromedriverVersion": "120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})",
+         "userDataDir": "C:\\Users\\shree\\AppData\\Local\\Temp\\scoped_dir13700_195584222"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:54361"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "33573caa1c921f691fd598b5942ea4c5"
+}
+[1703402722.743][INFO]: [33573caa1c921f691fd598b5942ea4c5] COMMAND MaximizeWindow {
+}
+[1703402722.743][INFO]: Waiting for pending navigations...
+[1703402722.744][INFO]: Done waiting for pending navigations. Status: ok
+[1703402722.884][INFO]: Waiting for pending navigations...
+[1703402722.885][INFO]: Done waiting for pending navigations. Status: ok
+[1703402722.886][INFO]: [33573caa1c921f691fd598b5942ea4c5] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1703402722.908][INFO]: [33573caa1c921f691fd598b5942ea4c5] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1703402722.908][INFO]: [33573caa1c921f691fd598b5942ea4c5] RESPONSE SetTimeouts
+[1703402722.920][INFO]: [33573caa1c921f691fd598b5942ea4c5] COMMAND Navigate {
+   "url": "https://www.makemytrip.com/"
+}
+[1703402722.920][INFO]: Waiting for pending navigations...
+[1703402722.921][INFO]: Done waiting for pending navigations. Status: ok
+[1703402723.150][INFO]: Waiting for pending navigations...
+[1703402728.131][INFO]: Done waiting for pending navigations. Status: ok
+[1703402728.132][INFO]: [33573caa1c921f691fd598b5942ea4c5] RESPONSE Navigate
+[1703402728.169][INFO]: [33573caa1c921f691fd598b5942ea4c5] COMMAND GetUrl {
+}
+[1703402728.169][INFO]: Waiting for pending navigations...
+[1703402728.214][INFO]: Done waiting for pending navigations. Status: ok
+[1703402728.728][INFO]: Waiting for pending navigations...
+[1703402728.770][INFO]: Done waiting for pending navigations. Status: ok
+[1703402728.770][INFO]: [33573caa1c921f691fd598b5942ea4c5] RESPONSE GetUrl "https://www.makemytrip.com/"
+[1703402728.862][INFO]: [33573caa1c921f691fd598b5942ea4c5] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@placeholder='From']"
+}
+[1703402728.862][INFO]: Waiting for pending navigations...
+[1703402728.987][INFO]: Done waiting for pending navigations. Status: ok
+[1703402759.116][INFO]: Waiting for pending navigations...
+[1703402759.117][INFO]: Done waiting for pending navigations. Status: ok
+[1703402759.117][INFO]: [33573caa1c921f691fd598b5942ea4c5] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='From']"}
+  (Session info: chrome=120.0.6099.111)
